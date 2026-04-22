@@ -74,7 +74,7 @@ export default function FinalReveal({
               initial={{ scale: 0.6, opacity: 0, y: 20 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               transition={{ delay: 0.2 + i * 0.25, type: "spring" }}
-              className="font-script rounded-2xl border-2 border-rose-200 bg-white/85 px-5 py-3 text-4xl text-rose-600 shadow-md"
+              className="rounded-2xl border-2 border-rose-200 bg-white/85 px-5 py-3 text-4xl text-rose-600 shadow-md"
             >
               {w}
             </motion.div>
