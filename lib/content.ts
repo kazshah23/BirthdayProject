@@ -189,7 +189,7 @@ export const locations: Location[] = [
 // ninja + ice + cream  →  NINJA CREAMI (rearranging letters of "ice" + "cream")
 export const finalReveal = {
   wordsInOrder: ["kaz", "go", "get", "it"],
-  answer: "You Did It!",
+  answer: "Ninja Creami",
   // EDIT: your love note for the final screen
   loveNote:
     "To many more birthdays in the future. So honored to be able to experience more life with you. You deserve everything and more - Kazmain",
