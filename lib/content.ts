@@ -46,7 +46,7 @@ export const locations: Location[] = [
     blurb: "Where it all started — a cozy table in River North.",
     coords: [41.893, -87.632],
     trivia: [
-      { q: "Where was our first date?", a: "pokelab" },
+      { q: "Where was our first dinner?", a: "pokelab" },
       {
         type: "mc",
         q: "Where did we hangout on the second day we met?",

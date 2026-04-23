@@ -12,6 +12,18 @@ const WRONG_REPLIES: { inputs: string[]; reply: string }[] = [
   { inputs: ["mom"], reply: "Okay that's cute but no" },
   { inputs: ["isha"], reply: "This is a prayer not a friend…" },
   { inputs: ["hi"], reply: "hiiiiiii" },
+  { inputs: ["i miss you"], reply: "I miss you too aishu" },
+  { inputs: ["guppy"], reply: "I will kill you hes mine" },
+  { inputs: ["wyd"], reply: "idk bruh text me" },
+  { inputs: ["i hate you"], reply: ":(" },
+  { inputs: ["ritul"], reply: "??? wtf" },
+  { inputs: ["zara"], reply: "LMAOOOOO" },
+  { inputs: ["manita"], reply: "yall more than that come on" },
+  {
+    inputs: ["this is future aisha"],
+    reply:
+      "omgggg hi future aisha i miss youuuu or well i miss the old you no wait that sounds mean you are perfect in every way unless you switched up idk",
+  },
 ];
 
 const DEFAULT_WRONG = "not quite, sweetie — try again 💕";
