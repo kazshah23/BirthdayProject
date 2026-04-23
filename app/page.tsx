@@ -64,6 +64,21 @@ export default function Home() {
       <SunsetBackground />
       <FallingPetals />
 
+      {progress.stage !== "lock" && (
+        <button
+          type="button"
+          onClick={() => {
+            setModal({ kind: "none" });
+            reset();
+          }}
+          aria-label="restart"
+          title="restart"
+          className="fixed right-3 top-3 z-50 flex h-10 w-10 items-center justify-center rounded-full border-2 border-rose-200 bg-white/80 text-lg text-rose-600 shadow-sm backdrop-blur transition-transform hover:bg-white active:scale-95"
+        >
+          ↺
+        </button>
+      )}
+
       <AnimatePresence mode="wait">
         {progress.stage === "lock" && (
           <LockScreen key="lock" onUnlock={unlock} />
