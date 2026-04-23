@@ -26,14 +26,12 @@ const WRONG_REPLIES: { inputs: string[]; reply: string }[] = [
   },
 ];
 
-const DEFAULT_WRONG = "not quite, sweetie — try again 💕";
-
-function wrongMessage(input: string): string {
+function wrongMessage(input: string): string | null {
   const n = normalize(input);
   for (const entry of WRONG_REPLIES) {
     if (entry.inputs.some((i) => normalize(i) === n)) return entry.reply;
   }
-  return DEFAULT_WRONG;
+  return null;
 }
 
 export default function LockScreen({ onUnlock }: { onUnlock: () => void }) {
